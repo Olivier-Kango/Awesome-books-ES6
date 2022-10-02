@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome Books App</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a>Awesome Books</a>
+        <ul id="nav-list">
+          <li id="link-list">List</li>
+          <li id="link-add">Add new</li>
+          <li id="link-contact">Contact</li>
+        </ul>
+      </nav>
+      <p class="date-time"></p>
+    </header>
+    <div class="container container-list">
+      <h1 id="h1">All awesome books</h1>
+      <ul id="lists"></ul>
+    </div>
+    <div class="container" id="books">
+      <form>
+        <h2>Add a new book</h2>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Title"
+          class="title"
+          required
+        />
+        <br /><br />
+        <input
+          type="text"
+          name="author"
+          id="author"
+          placeholder="Author"
+          class="author"
+          required
+        />
+        <br /><br />
+        <button id="btn">Add</button>
+      </form>
+    </div>
+    <div class="div-contact">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have a question or you just want to say "Hello"?<br />
+        You can reacout to us!
+      </p>
+      <ul>
+        <li>Our email: mail@gmail.com</li>
+        <li>00435863423</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <p id="copyright">&copy;Copyright Olivier and Yasir.</p>
+    </footer>
+    <script src="./js/class.js"></script>
+    <script src="./js/Class-2.js"></script>
+    <script src="./js/spa.js"></script>
+  </body>
+</html>
