@@ -4,6 +4,11 @@
 
 > Description the project. This is a single page web application that keeps tracks of books. Book details captured are the book title, author and ISBN. User can add a book, view a list of books and also remove any un wanted books.
 
+## Screen Short
+
+![awesome_books_full_website](https://user-images.githubusercontent.com/108806646/193831256-d596b14a-3fb2-48cc-9387-144db7d16026.png)
+
+
 ## Built With
 
 - Languages: HTML, CSS, JavaScript
@@ -11,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://myaserkhan.github.io/Awesome-Books-App/)
+[Live Demo Link](https://olivier-kango.github.io/Awesome-books-ES6/?title=rfrfr&author=rfrfrf)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -34,12 +39,6 @@ To run this app on your local computer you need the browser (Google Chrome is th
 
 ## Authors
 
-👤 **Yaser Khan**
-
-- GitHub: [@githubYasir](https://github.com/MYaserKhan)
-- Twitter: [@twitterYasir](https://twitter.com/khanyaser007)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yasir-khan-398229195/)
-
 👤 **Oliver Kango**
 
 - GitHub: [@githubolivier](https://github.com/Olivier-Kango)
@@ -50,7 +49,7 @@ To run this app on your local computer you need the browser (Google Chrome is th
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Olivier-Kango/Awesome-books-ES6/issues/new).
 
 ## Show your support
 
