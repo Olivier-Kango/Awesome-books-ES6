@@ -2,8 +2,7 @@
 
 # Project Name
 
-> Awesome Book.
-
+> Description the project. This is a single page web application that keeps tracks of books. Book details captured are the book title, author and ISBN. User can add a book, view a list of books and also remove any un wanted books.
 
 ## Built With
 
