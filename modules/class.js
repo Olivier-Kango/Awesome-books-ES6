@@ -1,12 +1,19 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-undef */
+/* eslint max-classes-per-file: ["error", 2] */
 
-function getInput() {
+class Book {
+  constructor(title, author, id) {
+    this.title = title;
+    this.author = author;
+    this.id = id;
+  }
+}
+
+const getInput = () => {
   const title = document.getElementById('title');
   const author = document.getElementById('author');
   const book = new Book(title.value, author.value, Math.random());
   return book;
-}
+};
 
 class Library {
   constructor() {
@@ -17,7 +24,6 @@ class Library {
     if (getInput().title !== '' && getInput().author !== '') {
       this.data.push(book);
       localStorage.setItem('library', JSON.stringify(this.data));
-      addToUI(book);
     }
   }
 
@@ -31,7 +37,7 @@ class Library {
 
 const library = new Library();
 
-function addToUI(bookObj) {
+const addToUI = (bookObj) => {
   const bookList = document.getElementById('lists');
   const book = document.createElement('li');
   book.setAttribute('id', bookObj.id);
@@ -47,14 +53,13 @@ function addToUI(bookObj) {
   if (localStorage.getItem('library').length > 1) {
     bookList.style.border = '2px solid black';
   }
-}
+};
 
 // Add Button
 const addButton = document.getElementById('btn');
 addButton.addEventListener('click', () => {
   const book = getInput();
   library.addBook(book);
-  // library.addNewBooks();
 });
 
 // Load page
@@ -64,6 +69,5 @@ window.onload = () => {
     library.data = [];
     return;
   }
-
   library.data.forEach((book) => addToUI(book));
 };
