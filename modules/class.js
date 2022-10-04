@@ -8,7 +8,7 @@ class Book {
   }
 }
 
-function getInput() {
+const getInput = () => {
   const title = document.getElementById('title');
   const author = document.getElementById('author');
   const book = new Book(title.value, author.value, Math.random());
@@ -37,7 +37,7 @@ class Library {
 
 const library = new Library();
 
-function addToUI(bookObj) {
+const addToUI = (bookObj) => {
   const bookList = document.getElementById('lists');
   const book = document.createElement('li');
   book.setAttribute('id', bookObj.id);
