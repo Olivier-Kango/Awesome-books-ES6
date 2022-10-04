@@ -13,7 +13,7 @@ const getInput = () => {
   const author = document.getElementById('author');
   const book = new Book(title.value, author.value, Math.random());
   return book;
-}
+};
 
 class Library {
   constructor() {
@@ -53,7 +53,7 @@ const addToUI = (bookObj) => {
   if (localStorage.getItem('library').length > 1) {
     bookList.style.border = '2px solid black';
   }
-}
+};
 
 // Add Button
 const addButton = document.getElementById('btn');
