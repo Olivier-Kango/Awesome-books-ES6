@@ -158,3 +158,9 @@ form h2 {
   font-style: italic;
   margin: 40% auto;
 }
+
+#link-list:hover,
+#link-add:hover,
+#link-contact:hover {
+  color: #006abc;
+}
